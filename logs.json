@@ -1,0 +1,254 @@
+[
+    {
+        "user_id": 1,
+        "intent": "flirt",
+        "severity": "high",
+        "trust_score_change": -10,
+        "new_trust_score": 0,
+        "status": "review",
+        "timestamp": "2026-02-06 11:44:43"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 52,
+        "status": "warned",
+        "timestamp": "2026-02-07 11:50:10"
+    },
+    {
+        "user_id": 1,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 37,
+        "status": "blocked",
+        "timestamp": "2026-02-07 11:50:27"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 39,
+        "status": "blocked",
+        "timestamp": "2026-02-07 14:27:20"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 41,
+        "status": "warned",
+        "timestamp": "2026-02-07 14:30:47"
+    },
+    {
+        "user_id": 1,
+        "intent": "abusive",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 26,
+        "status": "blocked",
+        "timestamp": "2026-02-07 14:39:52"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 28,
+        "status": "blocked",
+        "timestamp": "2026-02-10 09:40:16"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 100,
+        "status": "active",
+        "timestamp": "2026-02-10 09:48:01"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 100,
+        "status": "active",
+        "timestamp": "2026-02-10 09:48:10"
+    },
+    {
+        "user_id": 1,
+        "intent": "flirt",
+        "severity": "medium",
+        "trust_score_change": -10,
+        "new_trust_score": 90,
+        "status": "active",
+        "timestamp": "2026-02-10 09:51:23"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 92,
+        "status": "active",
+        "timestamp": "2026-02-10 11:12:11"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 94,
+        "status": "active",
+        "timestamp": "2026-02-10 11:12:41"
+    },
+    {
+        "user_id": 1,
+        "intent": "flirt",
+        "severity": "medium",
+        "trust_score_change": -3,
+        "new_trust_score": 91,
+        "status": "active",
+        "timestamp": "2026-02-10 11:12:50"
+    },
+    {
+        "user_id": 1,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 76,
+        "status": "active",
+        "timestamp": "2026-02-10 11:15:10"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 52,
+        "status": "warned",
+        "timestamp": "2026-02-10 13:27:53"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 54,
+        "status": "warned",
+        "timestamp": "2026-02-11 12:38:59"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 56,
+        "status": "warned",
+        "timestamp": "2026-02-11 12:39:29"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 58,
+        "status": "warned",
+        "timestamp": "2026-02-11 12:39:41"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 60,
+        "status": "active",
+        "timestamp": "2026-02-11 12:40:02"
+    },
+    {
+        "user_id": 3,
+        "intent": "flirt",
+        "severity": "medium",
+        "trust_score_change": -3,
+        "new_trust_score": 57,
+        "status": "warned",
+        "timestamp": "2026-02-11 12:40:43"
+    },
+    {
+        "user_id": 3,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 42,
+        "status": "warned",
+        "timestamp": "2026-02-11 13:19:29"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 44,
+        "status": "warned",
+        "timestamp": "2026-03-04 10:51:24"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 46,
+        "status": "warned",
+        "timestamp": "2026-03-04 10:52:13"
+    },
+    {
+        "user_id": 3,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 31,
+        "status": "blocked",
+        "timestamp": "2026-03-04 10:52:30"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 92,
+        "status": "active",
+        "timestamp": "2026-03-04 11:26:31"
+    },
+    {
+        "user_id": 3,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -15,
+        "new_trust_score": 77,
+        "status": "active",
+        "timestamp": "2026-03-04 11:26:43"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 92,
+        "status": "active",
+        "timestamp": "2026-03-04 11:46:37"
+    },
+    {
+        "user_id": 3,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 94,
+        "status": "active",
+        "timestamp": "2026-03-04 11:47:05"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Ravi",
+        "email": "ravi@gmail.com",
+        "password": "1234",
+        "role": "mentor",
+        "verified": false,
+        "trust_score": 76,
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "sha",
+        "email": "vshaha@gmaol.com",
+        "password": "S@2",
+        "role": "student",
+        "verified": false,
+        "trust_score": 50,
+        "status": "active"
+    },
+    {
+        "id": 3,
+        "name": "Raj",
+        "email": "Raj@gmail.com",
+        "password": "R@2",
+        "role": "mentor",
+        "verified": false,
+        "trust_score": 94,
+        "status": "active"
+    }
+]

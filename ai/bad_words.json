@@ -1,0 +1,34 @@
+{
+  "abusive": [
+    "idiot",
+    "stupid",
+    "hate",
+    "abuse"
+  ],
+  "scam": [
+    "pay money",
+    "send otp",
+    "bank details",
+    "job guarantee",
+    "investment"
+  ],
+  "unethical": [
+    "fake certificate",
+    "proxy interview",
+    "leak questions"
+  ],
+  "flirt": [
+    "beautiful",
+    "cute",
+    "love you",
+    "date",
+    "crush",
+    "single ah",
+    "miss you"
+  ],
+  "manipulative": [
+    "trust me only",
+    "dont tell anyone",
+    "depend on me"
+  ]
+}
