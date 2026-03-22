@@ -1,13 +1,27 @@
 [
     {
+        "id": 0,
+        "name": "Super Admin",
+        "email": "admin@mentorin.com",
+        "password": "admin",
+        "role": "admin",
+        "verified": true,
+        "trustScore": 100,
+        "status": "active",
+        "underReview": false
+    },
+    {
         "id": 1,
         "name": "Ravi",
         "email": "ravi@gmail.com",
         "password": "1234",
         "role": "mentor",
-        "verified": false,
-        "trust_score": 76,
-        "status": "active"
+        "verified": true,
+        "trustScore": 76,
+        "status": "active",
+        "underReview": false,
+        "mockActive": false,
+        "mockQueue": []
     },
     {
         "id": 2,
@@ -16,8 +30,9 @@
         "password": "S@2",
         "role": "student",
         "verified": false,
-        "trust_score": 50,
-        "status": "active"
+        "trustScore": 50,
+        "status": "active",
+        "underReview": false
     },
     {
         "id": 3,
@@ -26,7 +41,62 @@
         "password": "R@2",
         "role": "mentor",
         "verified": false,
-        "trust_score": 94,
-        "status": "active"
+        "trustScore": 94,
+        "status": "active",
+        "underReview": false
+    },
+    {
+        "id": 4,
+        "name": "Priya Sharma",
+        "email": "priya.pending@gmail.com",
+        "password": "password123",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 60,
+        "status": "active",
+        "underReview": false
+    },
+    {
+        "id": 5,
+        "name": "Amit Kumar",
+        "email": "amit.blocked@gmail.com",
+        "password": "password123",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 15,
+        "status": "blocked",
+        "underReview": true
+    },
+    {
+        "id": 6,
+        "name": "Neha Gupta",
+        "email": "neha.pending@gmail.com",
+        "password": "password123",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 0,
+        "status": "pending",
+        "underReview": false
+    },
+    {
+        "id": 8,
+        "name": "Murugan",
+        "email": "Muruga@gmail.com",
+        "password": "muruga@23",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 70,
+        "status": "active",
+        "underReview": false,
+        "skills": "",
+        "experience": "",
+        "domain": "",
+        "bio": "",
+        "linkedin": "",
+        "mockActive": false,
+        "mockQueue": [],
+        "simulationData": {
+            "active": false
+        }
     }
 ]
