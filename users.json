@@ -22,9 +22,20 @@
         "underReview": false,
         "domain": "Software Engineering",
         "experience": "10+ Years",
-        "mockActive": false,
-        "mockQueue": [],
-        "simulationData": {"active": false}
+        "mockActive": true,
+        "mockQueue": [
+            "Hi, I need help with learning React."
+        ],
+        "simulationData": {
+            "active": true,
+            "step": 0,
+            "history": [],
+            "metrics": {
+                "prof_total": 0,
+                "help_total": 0,
+                "count": 0
+            }
+        }
     },
     {
         "id": 2,
@@ -51,7 +62,9 @@
         "experience": "12+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 4,
@@ -67,7 +80,9 @@
         "experience": "8+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 5,
@@ -83,7 +98,9 @@
         "experience": "5+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 6,
@@ -99,7 +116,9 @@
         "experience": "6+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 7,
@@ -115,7 +134,9 @@
         "experience": "9+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 8,
@@ -131,7 +152,9 @@
         "experience": "7+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 9,
@@ -147,7 +170,9 @@
         "experience": "6+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     },
     {
         "id": 10,
@@ -163,6 +188,8 @@
         "experience": "4+ Years",
         "mockActive": false,
         "mockQueue": [],
-        "simulationData": {"active": false}
+        "simulationData": {
+            "active": false
+        }
     }
 ]
