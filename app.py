@@ -482,16 +482,42 @@ def simulate_reply():
                 save_users(users)
                 return jsonify({"status": "ongoing", "next": next_msg})
             else:
-                # SIMULATION COMPLETE
+                # SIMULATION COMPLETE — Generate rich report
                 count = sim_data["metrics"]["count"]
-                final_prof = round(sim_data["metrics"]["prof_total"] / count, 1)
-                final_help = round(sim_data["metrics"]["help_total"] / count, 1)
-                final_score = round((final_prof + final_help) / 2, 1)
-                
+
+                # Raw 0–10 averages
+                raw_prof = sim_data["metrics"]["prof_total"] / count
+                raw_help = sim_data["metrics"]["help_total"] / count
+
+                # Sub-scores (each 0–100)
+                communication_quality = round(raw_prof * 10, 1)
+                response_accuracy     = round(raw_help * 10, 1)
+                engagement_level      = round(min(100, (len(sim_data["history"]) / (len(MOCK_SEQUENCE) * 2)) * 100), 1)
+
+                # Weighted final score (0–100)
+                final_score = round(
+                    (communication_quality * 0.4) +
+                    (response_accuracy     * 0.4) +
+                    (engagement_level      * 0.2),
+                    1
+                )
+
+                # Tier assignment
+                if final_score <= 50:
+                    tier = "Needs Improvement"
+                elif final_score <= 75:
+                    tier = "Verified"
+                else:
+                    tier = "Trusted Mentor"
+
                 report = {
-                    "professionalism": final_prof,
-                    "helpfulness": final_help,
-                    "finalScore": final_score
+                    "professionalism":      round(raw_prof, 1),
+                    "helpfulness":          round(raw_help, 1),
+                    "finalScore":           final_score,
+                    "communicationQuality": communication_quality,
+                    "responseAccuracy":     response_accuracy,
+                    "engagementLevel":      engagement_level,
+                    "verificationTier":     tier
                 }
                 
                 # Format to absolute history driver
