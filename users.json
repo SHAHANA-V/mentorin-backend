@@ -17,24 +17,15 @@
         "password": "1234",
         "role": "mentor",
         "verified": true,
-        "trustScore": 76,
+        "trustScore": 70,
         "status": "active",
         "underReview": false,
         "domain": "Software Engineering",
         "experience": "10+ Years",
-        "mockActive": true,
-        "mockQueue": [
-            "Hi, I need help with learning React."
-        ],
+        "mockActive": false,
+        "mockQueue": [],
         "simulationData": {
-            "active": true,
-            "step": 0,
-            "history": [],
-            "metrics": {
-                "prof_total": 0,
-                "help_total": 0,
-                "count": 0
-            }
+            "active": false
         }
     },
     {

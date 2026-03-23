@@ -295,5 +295,32 @@
         "new_trust_score": 70,
         "status": "active",
         "timestamp": "2026-03-22 22:46:42"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 78,
+        "status": "active",
+        "timestamp": "2026-03-23 20:45:37"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 80,
+        "status": "active",
+        "timestamp": "2026-03-23 20:45:41"
+    },
+    {
+        "user_id": 1,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -10,
+        "new_trust_score": 70,
+        "status": "active",
+        "timestamp": "2026-03-23 20:46:36"
     }
 ]
