@@ -17,7 +17,7 @@
         "password": "1234",
         "role": "mentor",
         "verified": true,
-        "trustScore": 70,
+        "trustScore": 68,
         "status": "active",
         "underReview": false,
         "domain": "Software Engineering",
@@ -182,5 +182,57 @@
         "simulationData": {
             "active": false
         }
+    },
+    {
+        "id": 12,
+        "name": "ragavi",
+        "email": "ragavi@gmail.com",
+        "password": "ragavi@4",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 60,
+        "status": "active",
+        "underReview": false,
+        "skills": "",
+        "experience": "",
+        "domain": "Software engineering",
+        "bio": "",
+        "linkedin": "",
+        "mockActive": false,
+        "simulationData": {
+            "active": false
+        },
+        "mockQueue": []
+    },
+    {
+        "id": 13,
+        "name": "Anusha",
+        "email": "anu@gmail.com",
+        "password": "Anu@3",
+        "role": "mentor",
+        "verified": false,
+        "trustScore": 62,
+        "status": "active",
+        "underReview": false,
+        "skills": "java",
+        "experience": "9",
+        "domain": "Software engineering",
+        "bio": "experienced in selenium",
+        "linkedin": "https://www.linkedin.com/notifications/?filter=all",
+        "mockActive": true,
+        "simulationData": {
+            "active": true,
+            "step": 0,
+            "history": [],
+            "metrics": {
+                "prof_total": 0,
+                "help_total": 0,
+                "count": 0
+            }
+        },
+        "mockQueue": [
+            "Hi, I need help with learning React.",
+            "I'm getting a CORS error when my React app calls Flask. How do I fix it?"
+        ]
     }
 ]

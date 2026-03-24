@@ -322,5 +322,59 @@
         "new_trust_score": 70,
         "status": "active",
         "timestamp": "2026-03-23 20:46:36"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 72,
+        "status": "active",
+        "timestamp": "2026-03-23 21:10:11"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 74,
+        "status": "active",
+        "timestamp": "2026-03-23 21:10:36"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 76,
+        "status": "active",
+        "timestamp": "2026-03-23 21:10:44"
+    },
+    {
+        "user_id": 1,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 78,
+        "status": "active",
+        "timestamp": "2026-03-23 21:10:59"
+    },
+    {
+        "user_id": 1,
+        "intent": "scam",
+        "severity": "high",
+        "trust_score_change": -10,
+        "new_trust_score": 68,
+        "status": "active",
+        "timestamp": "2026-03-23 21:11:03"
+    },
+    {
+        "user_id": 13,
+        "intent": "professional",
+        "severity": "low",
+        "trust_score_change": 2,
+        "new_trust_score": 62,
+        "status": "active",
+        "timestamp": "2026-03-24 09:35:31"
     }
 ]

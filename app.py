@@ -162,8 +162,11 @@ def analyze_chat():
 
     user_id = data.get("user_id")
     message = data.get("message")
+    
+    print(f"DEBUG: Incoming chat from user_id={user_id}, message='{message}'")
 
     if not user_id or not message:
+        print("DEBUG: Missing user_id or message in request")
         return jsonify({"message": "Invalid request data"}), 400
 
     user_id = int(user_id)
@@ -424,22 +427,28 @@ def mock_sync(user_id):
 @app.route("/admin/simulation/history", methods=["GET"])
 def admin_simulation_history():
     return jsonify(load_sim_history())
-
+                
 @app.route("/simulate/reply", methods=["POST"])
 def simulate_reply():
     data = request.json
     users = load_users()
-    user_id = int(data.get("user_id"))
-    msg = data.get("message", "")
+    user_id = data.get("user_id")
+    mentor_msg = data.get("message")
+    
+    print(f"DEBUG: Simulation reply from user_id={user_id}, msg='{mentor_msg}'")
+
+    if not user_id or not mentor_msg:
+        print("DEBUG: Missing data in simulation reply")
+        return jsonify({"error": "Missing data"}), 400
     
     for user in users:
-        if user["id"] == user_id:
+        if user["id"] == int(user_id):
             sim_data = user.get("simulationData", {})
             if not sim_data.get("active"):
                 return jsonify({"error": "Simulation inactive"}), 400
                 
             # NLP EVALUATION
-            msg_lower = msg.lower()
+            msg_lower = mentor_msg.lower()
             prof_score = 10
             help_score = 5
             
