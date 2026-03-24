@@ -453,7 +453,7 @@ def simulate_reply():
             help_score = 5
             
             # Length check
-            if len(msg) > 20: help_score += 2
+            if len(mentor_msg) > 20: help_score += 2
             
             # Helpful keywords
             if any(k in msg_lower for k in ["roadmap", "sure", "here", "learn", "guide", "project", "build", "try", "step", "first"]):
